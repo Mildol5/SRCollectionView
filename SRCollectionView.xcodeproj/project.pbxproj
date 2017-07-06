@@ -26,8 +26,7 @@
 		2E43F45A1F08E22D00BF94A7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E43F44C1F08E22D00BF94A7 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		2E43F45B1F08E22D00BF94A7 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E43F44E1F08E22D00BF94A7 /* View+MASAdditions.m */; };
 		2E43F45C1F08E22D00BF94A7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E43F4511F08E22D00BF94A7 /* ViewController+MASAdditions.m */; };
-		2E43F4611F08E24600BF94A7 /* XRCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E43F45F1F08E24600BF94A7 /* XRCarouselView.m */; };
-		2E43F4621F08E24600BF94A7 /* XRPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E43F4601F08E24600BF94A7 /* XRPlaceholder.png */; };
+		3310ADFA1F0E8F12004BFAAB /* SRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3310ADF91F0E8F12004BFAAB /* SRViewController.m */; };
 		338E036B1F094108001012CC /* SRCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 338E036A1F094108001012CC /* SRCollectionView.m */; };
 /* End PBXBuildFile section */
 
@@ -91,9 +90,8 @@
 		2E43F44F1F08E22D00BF94A7 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		2E43F4501F08E22D00BF94A7 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		2E43F4511F08E22D00BF94A7 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		2E43F45E1F08E24600BF94A7 /* XRCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRCarouselView.h; sourceTree = "<group>"; };
-		2E43F45F1F08E24600BF94A7 /* XRCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRCarouselView.m; sourceTree = "<group>"; };
-		2E43F4601F08E24600BF94A7 /* XRPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XRPlaceholder.png; sourceTree = "<group>"; };
+		3310ADF81F0E8F12004BFAAB /* SRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRViewController.h; sourceTree = "<group>"; };
+		3310ADF91F0E8F12004BFAAB /* SRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRViewController.m; sourceTree = "<group>"; };
 		338E03691F094108001012CC /* SRCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCollectionView.h; sourceTree = "<group>"; };
 		338E036A1F094108001012CC /* SRCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,11 +146,12 @@
 			children = (
 				2E43F4071F08E19700BF94A7 /* AppDelegate.h */,
 				2E43F4081F08E19700BF94A7 /* AppDelegate.m */,
+				3310ADF81F0E8F12004BFAAB /* SRViewController.h */,
+				3310ADF91F0E8F12004BFAAB /* SRViewController.m */,
 				2E43F40A1F08E19700BF94A7 /* ViewController.h */,
 				2E43F40B1F08E19700BF94A7 /* ViewController.m */,
 				338E03691F094108001012CC /* SRCollectionView.h */,
 				338E036A1F094108001012CC /* SRCollectionView.m */,
-				2E43F45D1F08E24600BF94A7 /* XRCarouselView */,
 				2E43F4371F08E22C00BF94A7 /* Masonry */,
 				2E43F40D1F08E19700BF94A7 /* Main.storyboard */,
 				2E43F4101F08E19700BF94A7 /* Assets.xcassets */,
@@ -220,16 +219,6 @@
 				2E43F4511F08E22D00BF94A7 /* ViewController+MASAdditions.m */,
 			);
 			path = Masonry;
-			sourceTree = "<group>";
-		};
-		2E43F45D1F08E24600BF94A7 /* XRCarouselView */ = {
-			isa = PBXGroup;
-			children = (
-				2E43F45E1F08E24600BF94A7 /* XRCarouselView.h */,
-				2E43F45F1F08E24600BF94A7 /* XRCarouselView.m */,
-				2E43F4601F08E24600BF94A7 /* XRPlaceholder.png */,
-			);
-			path = XRCarouselView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,7 +329,6 @@
 			files = (
 				2E43F4521F08E22D00BF94A7 /* Info.plist in Resources */,
 				2E43F4141F08E19700BF94A7 /* LaunchScreen.storyboard in Resources */,
-				2E43F4621F08E24600BF94A7 /* XRPlaceholder.png in Resources */,
 				2E43F4111F08E19700BF94A7 /* Assets.xcassets in Resources */,
 				2E43F40F1F08E19700BF94A7 /* Main.storyboard in Resources */,
 			);
@@ -371,7 +359,6 @@
 				2E43F4581F08E22D00BF94A7 /* MASViewConstraint.m in Sources */,
 				2E43F4531F08E22D00BF94A7 /* MASCompositeConstraint.m in Sources */,
 				2E43F4591F08E22D00BF94A7 /* NSArray+MASAdditions.m in Sources */,
-				2E43F4611F08E24600BF94A7 /* XRCarouselView.m in Sources */,
 				2E43F40C1F08E19700BF94A7 /* ViewController.m in Sources */,
 				2E43F4091F08E19700BF94A7 /* AppDelegate.m in Sources */,
 				2E43F4561F08E22D00BF94A7 /* MASLayoutConstraint.m in Sources */,
@@ -381,6 +368,7 @@
 				2E43F45B1F08E22D00BF94A7 /* View+MASAdditions.m in Sources */,
 				2E43F4571F08E22D00BF94A7 /* MASViewAttribute.m in Sources */,
 				2E43F4541F08E22D00BF94A7 /* MASConstraint.m in Sources */,
+				3310ADFA1F0E8F12004BFAAB /* SRViewController.m in Sources */,
 				2E43F4551F08E22D00BF94A7 /* MASConstraintMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
