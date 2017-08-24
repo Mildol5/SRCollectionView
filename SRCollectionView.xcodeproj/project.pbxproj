@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E214EAB1F4E9D7000636BA3 /* MaterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E214EAA1F4E9D7000636BA3 /* MaterCollectionViewCell.m */; };
 		2E43F4061F08E19700BF94A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E43F4051F08E19700BF94A7 /* main.m */; };
 		2E43F4091F08E19700BF94A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E43F4081F08E19700BF94A7 /* AppDelegate.m */; };
 		2E43F40C1F08E19700BF94A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E43F40B1F08E19700BF94A7 /* ViewController.m */; };
@@ -48,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E214EA91F4E9D7000636BA3 /* MaterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterCollectionViewCell.h; sourceTree = "<group>"; };
+		2E214EAA1F4E9D7000636BA3 /* MaterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterCollectionViewCell.m; sourceTree = "<group>"; };
 		2E43F4011F08E19700BF94A7 /* SRCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E43F4051F08E19700BF94A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E43F4071F08E19700BF94A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -152,6 +155,8 @@
 				2E43F40B1F08E19700BF94A7 /* ViewController.m */,
 				338E03691F094108001012CC /* SRCollectionView.h */,
 				338E036A1F094108001012CC /* SRCollectionView.m */,
+				2E214EA91F4E9D7000636BA3 /* MaterCollectionViewCell.h */,
+				2E214EAA1F4E9D7000636BA3 /* MaterCollectionViewCell.m */,
 				2E43F4371F08E22C00BF94A7 /* Masonry */,
 				2E43F40D1F08E19700BF94A7 /* Main.storyboard */,
 				2E43F4101F08E19700BF94A7 /* Assets.xcassets */,
@@ -359,6 +364,7 @@
 				2E43F4581F08E22D00BF94A7 /* MASViewConstraint.m in Sources */,
 				2E43F4531F08E22D00BF94A7 /* MASCompositeConstraint.m in Sources */,
 				2E43F4591F08E22D00BF94A7 /* NSArray+MASAdditions.m in Sources */,
+				2E214EAB1F4E9D7000636BA3 /* MaterCollectionViewCell.m in Sources */,
 				2E43F40C1F08E19700BF94A7 /* ViewController.m in Sources */,
 				2E43F4091F08E19700BF94A7 /* AppDelegate.m in Sources */,
 				2E43F4561F08E22D00BF94A7 /* MASLayoutConstraint.m in Sources */,
