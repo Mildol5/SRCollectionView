@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //  master
+=======
+//  branchv0.1
+>>>>>>> V0.1
 //  SRCollectionView.h
 //  SRCollectionView
 //

@@ -367,6 +367,7 @@
 				2E214EAB1F4E9D7000636BA3 /* MaterCollectionViewCell.m in Sources */,
 				2E43F40C1F08E19700BF94A7 /* ViewController.m in Sources */,
 				2E43F4091F08E19700BF94A7 /* AppDelegate.m in Sources */,
+				2E214EAE1F4E9DAE00636BA3 /* V1.m in Sources */,
 				2E43F4561F08E22D00BF94A7 /* MASLayoutConstraint.m in Sources */,
 				2E43F4061F08E19700BF94A7 /* main.m in Sources */,
 				338E036B1F094108001012CC /* SRCollectionView.m in Sources */,
